@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+div#cabecalho {
+	height: 80px;
+	border: 0px solid #000;
+	background-color: lightblue;
+}
+
+div#menu {
+	float: left;
+	width: 200px;
+    height: 500px;
+	border: 0px solid #000;
+}
+
+div#conteudo {
+	margin-left: 200px;
+	border: 0px solid #000;
+	background-color: white;
+    height: 100%;
+	width: 810px;
+}
+
+div#rodape {
+	clear: both;
+	height: 50px;
+	border: 0px solid #000;
+	background-color: lightblue;
+}
+
+td:HOVER {
+	background-color: silver;
+}
+
+#tbDefault td:hover{
+    background-color:transparent;
+}
+
+#tbCadastros tr:hover{
+    background-color:lightgreen;
+}
+#tbCadastros td:hover{
+    background-color:transparent;
+}
+
+}
